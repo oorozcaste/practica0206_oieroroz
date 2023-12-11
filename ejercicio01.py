@@ -1,5 +1,5 @@
 def crear_tabla(x):
-    file = open(f"tabla del {x}","w")
+    file = open(f"tabla-{x}","w")
     for i in range(1,10):
          w = (i * x)
          h = (f"{i} x {x} = {w}")
