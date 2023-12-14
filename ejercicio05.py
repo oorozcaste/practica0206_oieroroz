@@ -13,7 +13,7 @@ for i in pib_1:
         
                 
         for j in x:
-            if j != ":" and j != "p":
+            if j != ":" and j != "p" and j != "e" and j != "b":
                  h = (f"{j} es el pib correspondiente al año {año}")
                  definitiva.append(h)
                  año = año + 1
