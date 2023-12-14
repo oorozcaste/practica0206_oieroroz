@@ -10,8 +10,11 @@ for i in pib_1:
     z = i.split()
     if z[0] == y:
         x = (z[1:])
+        
+                
         for j in x:
-            h = (f"{j} es el pib correspondiente al año {año}")
-            definitiva.append(h)
-            año = año + 1
+            if j != ":" and j != "p":
+                 h = (f"{j} es el pib correspondiente al año {año}")
+                 definitiva.append(h)
+                 año = año + 1
         print(definitiva)
