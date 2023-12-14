@@ -1,4 +1,7 @@
 def buscarlinea(x,m):
+    """"el parametro de entrada son dos numeros n y m
+        y lo que devuelve por pantalla la función 
+        es la linea m de la tabla de multiplicar de n"""
     import os
     y = (f"tabla-{x}")
     if os.path.isfile(y) == True:
